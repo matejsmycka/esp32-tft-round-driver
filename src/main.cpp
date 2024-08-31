@@ -6,7 +6,6 @@
 
 void setup()
 {
-  Serial.begin(9600);
   Config_Init();
   LCD_Init();
   LCD_SetBacklight(1000);
